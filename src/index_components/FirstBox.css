@@ -68,6 +68,7 @@
 
 .headertext .topic {
 	color: white;
+	padding-left: 0.6rem;
 }
 
 /* media queries */
