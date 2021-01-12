@@ -19,8 +19,7 @@
 .topnav ul {
 	list-style: none;
 	display: flex;
-	/*     margin-bottom:-1rem; */
-	margin-right: 5rem;
+	padding: 1rem;
 }
 
 .topnav .desk a {
@@ -32,7 +31,7 @@
 	text-decoration: none;
 	font-size: 1.1rem;
 	color: black;
-	margin-left: 1.7rem;
+	margin: 1rem;
 }
 
 .topnav ul a:hover {
@@ -73,7 +72,7 @@
 
 @media (max-width: 1024px) {
 	.topnav {
-		justify-content: space-around;
+		justify-content: space-between;
 	}
 }
 
@@ -88,7 +87,7 @@
 
 	.topnav {
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 	}
 }
 
