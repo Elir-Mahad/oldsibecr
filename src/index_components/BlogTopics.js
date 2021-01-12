@@ -22,10 +22,7 @@ function BlogTopics() {
 									Algo world <span className="postnumbers"> 0 posts </span>
 								</h2>
 
-								<p>
-									Reflections and practical tutorials about competitive
-									programming.
-								</p>
+								<p>Reflections and tutorials about competitive programming.</p>
 							</div>
 						</div>
 
