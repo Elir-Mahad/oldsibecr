@@ -18,7 +18,7 @@
 .blog_topics .container {
 	-webkit-box-shadow: 0px 0px 10px lightgrey;
 	box-shadow: 0px 0px 10px lightgrey;
-	width: calc((100% / 3) - 3%);
+	width: calc((87% / 3) - 3%);
 	margin: 1%;
 	background-color: #8193b2;
 	border-radius: 10px;
