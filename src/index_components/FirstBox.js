@@ -33,12 +33,7 @@ function FirstBox() {
 					<div className="wrapper">
 						<div className="headertext">
 							<h1>E'lir Mahad</h1>
-							<h2>
-								Reflections on
-								<span className="topic">programming</span>,
-								<span className="topic">competitive programming</span>,
-								<span className="topic">tech theory</span>
-							</h2>
+							<h2>A posteriori reflections on coding</h2>
 						</div>
 					</div>
 				</header>
