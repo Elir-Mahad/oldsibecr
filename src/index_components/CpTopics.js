@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function CpTopics() {
 	return (
 		<div className="container algo">
-			<Link to="/cp">
+			<Link style={{ textDecoration: "none" }} to="/cp">
 				<img
 					className="image"
 					src={competitiveprogramming}

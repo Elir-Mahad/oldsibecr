@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function EssayTopics() {
 	return (
 		<div className="container essay">
-			<Link to="/essays">
+			<Link style={{ textDecoration: "none" }} to="/essays">
 				<img
 					className="image"
 					src={codingtheory}

@@ -16,8 +16,8 @@
 }
 
 .blog_topics .container {
-	-webkit-box-shadow: 0px 0px 10px lightgrey;
-	box-shadow: 0px 0px 10px lightgrey;
+	/* -webkit-box-shadow: 0px 0px 10px lightgrey;
+	box-shadow: 0px 0px 10px lightgrey; */
 	width: calc((87% / 3) - 3%);
 	margin: 1%;
 	background-color: #8193b2;
@@ -54,6 +54,7 @@
 	line-height: 30px;
 	text-align: center;
 	padding: 0.5rem;
+	color: black;
 }
 
 /* media */

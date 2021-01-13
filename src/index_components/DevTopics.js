@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function DevTopics() {
 	return (
 		<div className="container tips">
-			<Link to="/devtips">
+			<Link style={{ textDecoration: "none" }} to="/devtips">
 				<img
 					className="image"
 					src={codingtips}
