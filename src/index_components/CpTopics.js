@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 
 function CpTopics() {
 	return (
-		// <Router>
-		// 	<Link to="../index_components/FirstBox.js">
 		<div className="container algo">
 			<Link to="/cp">
 				<img
@@ -15,17 +13,15 @@ function CpTopics() {
 					alt=""
 					//
 				/>
-			</Link>
-			<div className="words">
-				<h2>
-					Algo world <span className="postnumbers"> 0 posts </span>
-				</h2>
+				<div className="words">
+					<h2>
+						Algo world <span className="postnumbers"> 0 posts </span>
+					</h2>
 
-				<p>Reflections and tutorials about competitive programming.</p>
-			</div>
+					<p>Reflections and tutorials about competitive programming.</p>
+				</div>
+			</Link>
 		</div>
-		// 	</Link>
-		// </Router>
 	);
 }
 
