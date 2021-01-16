@@ -171,6 +171,12 @@ function DeployReactSiteGit() {
 					</div>
 				</div>
 			</div>
+			<div class="boite">
+				<div class="cercle3"></div>
+				<div class="cercle3"></div>
+				<div class="cercle3"></div>
+				<div class="cercle3"></div>
+			</div>
 		</div>
 	);
 }
