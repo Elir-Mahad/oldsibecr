@@ -5,15 +5,15 @@ import borders2 from "../assets/borders2.png";
 
 function MarginBlog() {
 	return (
-		<div class="blog">
-			<div class="titletag">
-				<h1 class="title">Debugging css: margin/padding issues</h1>
-				<h4 class="hashtag">#Html, #Css</h4>
+		<div className="blog">
+			<div className="titletag">
+				<h1 className="title">Debugging css: margin/padding issues</h1>
+				<h4 className="hashtag">#Html, #Css</h4>
 			</div>
 			{/* collapsible starts */}
-			<div class="content">
-				<div class="blogbody">
-					<h2 class="focus focusdifferent">Problem</h2>
+			<div className="content">
+				<div className="blogbody">
+					<h2 className="focus focusdifferent">Problem</h2>
 
 					<p>
 						When coding, i found myself spending a lot of time trying to
@@ -22,7 +22,7 @@ function MarginBlog() {
 						particular div would present itself to me.
 					</p>
 
-					<h2 class="focus">Solution</h2>
+					<h2 className="focus">Solution</h2>
 
 					<p>
 						I gave all my sections and divs different colours; and I gave
@@ -47,13 +47,19 @@ function MarginBlog() {
 						//
 					/>
 
-					<h2 class="focus">Key idea</h2>
+					<h2 className="focus">Key idea</h2>
 
 					<p>
 						Placing background colours and borders on all divs and sections, can
 						guard us against the surprise attacks of margins and paddings.
 					</p>
 				</div>
+			</div>
+			<div class="boite">
+				<div class="cercle3"></div>
+				<div class="cercle3"></div>
+				<div class="cercle3"></div>
+				<div class="cercle3"></div>
 			</div>
 		</div>
 	);
