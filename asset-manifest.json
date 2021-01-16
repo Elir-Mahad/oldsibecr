@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/scribe/static/css/main.201bd6cf.chunk.css",
-    "main.js": "/scribe/static/js/main.2c6e8e4e.chunk.js",
-    "main.js.map": "/scribe/static/js/main.2c6e8e4e.chunk.js.map",
-    "runtime-main.js": "/scribe/static/js/runtime-main.97560015.js",
-    "runtime-main.js.map": "/scribe/static/js/runtime-main.97560015.js.map",
-    "static/js/2.8bbeca01.chunk.js": "/scribe/static/js/2.8bbeca01.chunk.js",
-    "static/js/2.8bbeca01.chunk.js.map": "/scribe/static/js/2.8bbeca01.chunk.js.map",
-    "static/js/3.6bffdbb3.chunk.js": "/scribe/static/js/3.6bffdbb3.chunk.js",
-    "static/js/3.6bffdbb3.chunk.js.map": "/scribe/static/js/3.6bffdbb3.chunk.js.map",
+    "main.css": "/scribe/static/css/main.751d1555.chunk.css",
+    "main.js": "/scribe/static/js/main.2e16117e.chunk.js",
+    "main.js.map": "/scribe/static/js/main.2e16117e.chunk.js.map",
+    "runtime-main.js": "/scribe/static/js/runtime-main.82ec9620.js",
+    "runtime-main.js.map": "/scribe/static/js/runtime-main.82ec9620.js.map",
+    "static/js/2.c7765fcd.chunk.js": "/scribe/static/js/2.c7765fcd.chunk.js",
+    "static/js/2.c7765fcd.chunk.js.map": "/scribe/static/js/2.c7765fcd.chunk.js.map",
+    "static/js/3.2b5ca014.chunk.js": "/scribe/static/js/3.2b5ca014.chunk.js",
+    "static/js/3.2b5ca014.chunk.js.map": "/scribe/static/js/3.2b5ca014.chunk.js.map",
     "index.html": "/scribe/index.html",
-    "static/css/main.201bd6cf.chunk.css.map": "/scribe/static/css/main.201bd6cf.chunk.css.map",
-    "static/js/2.8bbeca01.chunk.js.LICENSE.txt": "/scribe/static/js/2.8bbeca01.chunk.js.LICENSE.txt",
+    "static/css/main.751d1555.chunk.css.map": "/scribe/static/css/main.751d1555.chunk.css.map",
+    "static/js/2.c7765fcd.chunk.js.LICENSE.txt": "/scribe/static/js/2.c7765fcd.chunk.js.LICENSE.txt",
+    "static/media/borders1.0af1e3de.jpeg": "/scribe/static/media/borders1.0af1e3de.jpeg",
+    "static/media/borders2.9cc94726.png": "/scribe/static/media/borders2.9cc94726.png",
     "static/media/codingtheory.01bc751a.png": "/scribe/static/media/codingtheory.01bc751a.png",
     "static/media/codingtips.bf66d1d6.jpeg": "/scribe/static/media/codingtips.bf66d1d6.jpeg",
     "static/media/competitiveprogramming.e5ee1c78.jpg": "/scribe/static/media/competitiveprogramming.e5ee1c78.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.97560015.js",
-    "static/js/2.8bbeca01.chunk.js",
-    "static/css/main.201bd6cf.chunk.css",
-    "static/js/main.2c6e8e4e.chunk.js"
+    "static/js/runtime-main.82ec9620.js",
+    "static/js/2.c7765fcd.chunk.js",
+    "static/css/main.751d1555.chunk.css",
+    "static/js/main.2e16117e.chunk.js"
   ]
 }
