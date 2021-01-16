@@ -10,12 +10,14 @@ function FirstBox() {
 				<div className="topnavcontainer">
 					<div className="wrapper">
 						<nav className="topnav">
-							<img
-								className=""
-								src={writing}
-								alt=""
-								//
-							/>
+							<a href="https://elir-mahad.github.io/scribe/">
+								<img
+									className=""
+									src={writing}
+									alt=""
+									//
+								/>
+							</a>
 
 							<ul className="main-menu desk">
 								<li>
