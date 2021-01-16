@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Open+Sans&display=swap");
 
-/* html {
-	font-size: 62.5%;
-} */
-
 /* Below are the general styles - linking different fonts to their elements. */
 
 body,
@@ -18,12 +14,14 @@ h3 p {
 h1,
 h2,
 h3 {
-	font-family: "Inconsolata", monospace;
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 100;
 }
 
 body {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Inter", sans-serif;
 	background-color: #eef0f1;
+	font-weight: 100;
 }
 
 .wrapper {

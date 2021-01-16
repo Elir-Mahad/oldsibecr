@@ -43,7 +43,6 @@
 
 .head {
 	min-width: 100%;
-	/* 	background-color: rgba(60, 77, 115, 1); */
 	background-color: #040d21;
 	background-size: cover;
 }
@@ -61,7 +60,7 @@
 }
 
 .headertext h2 {
-	font-size: 1.5rem;
+	font-size: 1.9rem;
 	color: white;
 	word-break: break-word;
 }

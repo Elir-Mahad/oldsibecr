@@ -1,0 +1,163 @@
+/* blog general styles */
+
+.blogs {
+	margin: 3rem;
+}
+
+.blog {
+	margin: 3rem;
+	padding-bottom: 1.5rem;
+	border-radius: 10px;
+}
+
+.titletag {
+	display: flex;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+
+.title {
+	font-weight: 100;
+	font-size: 2rem;
+}
+
+.hashtag {
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+
+/* actual blog post  */
+
+.blogbody {
+	padding: 2rem;
+	padding-top: 1.5rem;
+}
+
+.blog h2,
+.blog h3,
+.blog p,
+.blog li {
+	font-weight: 100;
+	line-height: 1.5;
+}
+
+.blog h2 {
+	font-size: 1.7rem;
+}
+
+.blog h3 {
+	font-size: 1.7rem;
+}
+
+.blog p {
+	font-size: 1.3rem;
+}
+
+.blog li {
+	font-size: 1rem;
+}
+
+.blogbody .focus {
+	color: darkred;
+}
+
+.blogbody .focusdifferent {
+	color: darkred;
+}
+
+.blogbody ul {
+	margin-left: 5rem;
+	list-style: circle;
+}
+
+.blogbody ul li {
+	margin-bottom: 2rem;
+	word-break: break-word;
+}
+
+.blogbody ol li {
+	margin-bottom: 2rem;
+}
+
+.blogbody .code {
+	background-color: black;
+	color: white;
+	padding: 1rem;
+	list-style: none;
+}
+
+.paragraph {
+	/* this applies only for blogs where i wrap elements in div that has this class */
+	padding-top: 1rem;
+}
+
+.paragraph h2 {
+	/* this applies only for blogs where i wrap elements in div that has this class */
+	padding-bottom: 2rem;
+}
+
+.blogbody img {
+	margin: 1rem;
+	margin-left: 0rem;
+	border-radius: 10px;
+	border: 1px solid black;
+	width: 100%;
+}
+
+/* .content {
+	display: none;
+} */
+
+/* media */
+
+@media (max-width: 1024px) {
+	.blog .titledate {
+		flex-direction: column;
+	}
+
+	.blog .title {
+		text-align: center;
+		margin-top: 2rem;
+		margin-bottom: -1rem;
+	}
+
+	.blog button {
+		display: block;
+		margin: auto;
+	}
+}
+
+@media (max-width: 600px) {
+	.blogs {
+		padding-top: 0rem;
+		margin: 0rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.blog .title {
+		width: 110%;
+		font-size: 2rem;
+	}
+
+	.blog h2 {
+		font-size: 1.9rem;
+	}
+
+	.blog h3 {
+		font-size: 1.8rem;
+	}
+
+	.blog p {
+		font-size: 1.7rem;
+	}
+
+	.blog li {
+		font-size: 1.6rem;
+	}
+}

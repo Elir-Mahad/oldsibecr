@@ -1,10 +1,14 @@
 import React from "react";
+import MarginBlog from "./MarginBlog";
+import "../AllBlogs.css";
 
 function CpIndex() {
 	return (
-		<div>
-			<h1> Dev index </h1>
-		</div>
+		<section class="blogs">
+			<div class="wrapper">
+				<MarginBlog />
+			</div>
+		</section>
 	);
 }
 
