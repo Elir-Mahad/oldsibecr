@@ -34,14 +34,14 @@ function MarginBlog() {
 					</p>
 
 					<img
-						className=""
+						className="noncodeimg"
 						src={borders1}
 						alt=""
 						//
 					/>
 
 					<img
-						className=""
+						className="noncodeimg"
 						src={borders2}
 						alt=""
 						//
