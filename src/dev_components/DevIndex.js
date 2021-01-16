@@ -2,6 +2,7 @@ import React from "react";
 import MarginBlog from "./MarginBlog";
 import "../AllBlogs.css";
 import DeployHtmlSiteGit from "./DeployHtmlSiteGit";
+import DeployReactSiteGit from "./DeployReactSiteGit";
 
 function CpIndex() {
 	return (
@@ -9,6 +10,7 @@ function CpIndex() {
 			<div class="wrapper">
 				<MarginBlog />
 				<DeployHtmlSiteGit />
+				<DeployReactSiteGit />
 			</div>
 		</section>
 	);
