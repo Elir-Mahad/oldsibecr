@@ -1,6 +1,9 @@
 import React from "react";
 import "../AllBlogs.css";
-import borders1 from "../assets/borders1.jpeg";
+import cssmargin from "../assets/cssmargin.png";
+import doubleclasses from "../assets/doubleclasses.jpg";
+import reactgit from "../assets/reactgit.jpeg";
+import githtml from "../assets/githtml.png";
 
 function DevIndex() {
 	return (
@@ -10,7 +13,7 @@ function DevIndex() {
 				<img
 					//
 					className="blogimage"
-					src={borders1}
+					src={githtml}
 					alt=""
 				/>
 				<p>
@@ -24,7 +27,7 @@ function DevIndex() {
 				<img
 					//
 					className="blogimage"
-					src={borders1}
+					src={reactgit}
 					alt=""
 				/>
 				<p>
@@ -39,7 +42,7 @@ function DevIndex() {
 				<img
 					//
 					className="blogimage"
-					src={borders1}
+					src={cssmargin}
 					alt=""
 				/>
 				<p>
@@ -54,7 +57,7 @@ function DevIndex() {
 				<img
 					//
 					className="blogimage"
-					src={borders1}
+					src={doubleclasses}
 					alt=""
 				/>
 				<p>
