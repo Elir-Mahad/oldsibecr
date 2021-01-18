@@ -35,7 +35,7 @@ function DevBlogsSum() {
 				<Link
 					style={{ textDecoration: "none" }}
 					//
-					to=""
+					to="reactgit"
 				>
 					<h2>Deploy a react app via Github pages</h2>
 					<img
@@ -57,7 +57,7 @@ function DevBlogsSum() {
 				<Link
 					style={{ textDecoration: "none" }}
 					//
-					to=""
+					to="margin"
 				>
 					<h2>Debugging css: margin/padding issues</h2>
 					<img
@@ -79,7 +79,7 @@ function DevBlogsSum() {
 				<Link
 					style={{ textDecoration: "none" }}
 					//
-					to=""
+					to="doubleclass"
 				>
 					<h2>Double classing elements</h2>
 					<img

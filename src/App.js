@@ -9,6 +9,9 @@ import EssayBlogsSum from "./essay_components/EssayBlogsSum";
 import CpBlogsSum from "./cp_components/CpBlogsSum";
 //
 import DeployHtmlSiteGit from "./dev_components/DeployHtmlSiteGit";
+import DeployReactSiteGit from "./dev_components/DeployReactSiteGit";
+import MarginBlog from "./dev_components/MarginBlog";
+import DoubleClassing from "./dev_components/DoubleClassing";
 //
 function App() {
 	return (
@@ -17,8 +20,23 @@ function App() {
 				<Switch>
 					{/* below are the third level pages */}
 					<Route path="/htmlgit">
+						<FirstBox />
 						<DeployHtmlSiteGit />
 					</Route>
+					<Route path="/reactgit">
+						<FirstBox />
+						<DeployReactSiteGit />
+					</Route>
+					<Route path="/margin">
+						<FirstBox />
+						<MarginBlog />
+					</Route>
+					<Route path="/doubleclass">
+						<FirstBox />
+						<DoubleClassing />
+					</Route>
+
+					{/* New Layer above */}
 
 					{/*  */}
 					<Route path="/essaysummaries">
