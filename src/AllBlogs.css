@@ -6,7 +6,7 @@
 	justify-content: center;
 }
 
-.container {
+.synopsisbox {
 	display: flex;
 	flex-direction: column;
 	box-shadow: 0px 0px 5px black; /* the 5px creates the shadow effect for all sides */
