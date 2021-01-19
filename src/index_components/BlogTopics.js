@@ -24,7 +24,7 @@ function BlogTopics() {
 						/>
 						<div className="words">
 							<h2>
-								Algo world <span className="postnumbers"> 0 posts </span>
+								Algo world <span className="postnumbers"> 1 post </span>
 							</h2>
 
 							<p>Reflections and tutorials about competitive programming.</p>
@@ -35,7 +35,7 @@ function BlogTopics() {
 					<Link
 						style={{ textDecoration: "none" }}
 						//
-						to="/devsummaries"
+						// to="/devsummaries"
 					>
 						<img
 							className="image"
@@ -45,7 +45,7 @@ function BlogTopics() {
 						/>
 						<div className="words">
 							<h2>
-								Coding tips <span className="postnumbers"> 0 posts </span>
+								Coding tips <span className="postnumbers"> 0 </span>
 							</h2>
 
 							<p>
@@ -64,7 +64,7 @@ function BlogTopics() {
 						/>
 						<div className="words">
 							<h2>
-								Essays <span className="postnumbers"> 0 posts </span>
+								Essays <span className="postnumbers"> 0 </span>
 							</h2>
 
 							<p>
