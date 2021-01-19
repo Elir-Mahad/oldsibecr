@@ -15,18 +15,14 @@ function CpBlogsSum() {
 					//
 					to="problemsolving"
 				>
-					<h2> The process for solving coding problems</h2>
 					<img
 						//
 						className="blogimage"
 						src={problemsolvingimage}
 						alt=""
 					/>
-					<p>
-						There is a thick line between regular programming, and competitive
-						programming. In regular programming, you learn how write code, and
-						then you build things. During this process ...
-					</p>
+					<h2> The process for solving coding problems</h2>
+					<p>Learn how to systematically deconstruct algorithmic problems.</p>
 				</Link>
 			</div>
 			<div className="synopsisbox">
@@ -35,18 +31,17 @@ function CpBlogsSum() {
 					//
 					to="frequencycounter1"
 				>
-					<h2>The Frequency counter pattern - part 1</h2>
 					<img
 						//
 						className="blogimage"
 						src={frequencycounterimage}
 						alt=""
 					/>
+					<h2>The Frequency counter pattern - part 1</h2>
 					<p>
 						{" "}
 						The frequency counter pattern is one of the many patterns, that
-						competitive progammers use to solve coding problems. This pattern
-						uses ...
+						competitive progammers use ...
 					</p>
 				</Link>
 			</div>
@@ -56,18 +51,17 @@ function CpBlogsSum() {
 					//
 					to="frequencycounter2"
 				>
-					<h2>The Frequency counter pattern - part 2</h2>
 					<img
 						//
 						className="blogimage"
 						src={frequencycounterimage}
 						alt=""
 					/>
+					<h2>The Frequency counter pattern - part 2</h2>
 					<p>
 						{" "}
-						In part 2, we will enhance our understanding of the frequency
-						counter pattern by solving the 'anagram problem'. An anagram is a
-						word, phrase, or name ...
+						In part 2, we will solve the 'anagram problem'. An anagram is a word
+						...
 					</p>
 				</Link>
 			</div>
@@ -78,18 +72,17 @@ function CpBlogsSum() {
 					//
 					to="multiplepointers1"
 				>
-					<h2>The multiple pointers pattern - part 1</h2>
 					<img
 						//
 						className="blogimage"
 						src={multiplepointersimage}
 						alt=""
 					/>
+					<h2>The multiple pointers pattern - part 1</h2>
 					<p>
 						{" "}
-						The new pattern that we are going to examine today is called
-						multiple pointers. Creating pointers or values that correspond to an
-						index or osition and move towards the beginning...
+						The multiple pointers is used for creating pointers or values that
+						correspond to an index ...
 					</p>
 				</Link>
 			</div>

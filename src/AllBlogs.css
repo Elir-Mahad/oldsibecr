@@ -11,31 +11,33 @@
 	flex-direction: column;
 	box-shadow: rgba(69, 67, 96, 0.3) 0px 5px 20px 0px;
 	position: relative;
-	width: calc((100% / 3) - 3%);
+	width: calc((100% / 4) - 3%);
 	margin: 1%;
+	padding: 1.5rem;
 	cursor: pointer;
+	border-radius: 5px;
+}
+
+.synopsisbox:hover {
+	background-color: white;
 }
 
 .synopsisbox h2 {
-	padding: 1rem;
-	background-color: #040d21;
-	color: white;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: black;
 }
 
 .blogimage {
-	padding: 1rem;
-	width: 20rem;
-	filter: hue-rotate(50deg);
-	display: block;
-	margin: auto;
+	height: 240px;
+	max-width: 100%;
+	min-width: 100%;
+	object-fit: cover;
+	/* filter: hue-rotate(100deg); */
 }
 
 .synopsisbox p {
-	padding-bottom: 1rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
 	color: black;
-	/* background-color: black; */
 }
 
 /* blog general styles */
