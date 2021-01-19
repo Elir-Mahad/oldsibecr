@@ -11,7 +11,9 @@ function ProblemSolving() {
 			<div className="wrapper">
 				<div className="blog">
 					<div className="titletaganimation">
-						<h1 className="title">The process for solving coding problems</h1>
+						<h1 className="title">
+							The process for solving algorithm problems
+						</h1>
 						<div className="taganimation">
 							<h4 className="hashtag">#algorithms</h4>
 							<div className="boite">
@@ -529,6 +531,21 @@ function ProblemSolving() {
 								src={charcountexample}
 								alt=""
 							/>
+
+							<p>
+								{" "}
+								In conclusion, the process for solving algorithm problems, is
+								much more complex. This blog post is simply an attempt to
+								highlight the structure and nature of this process. It is
+								composed of notes that i took while i was going through this{" "}
+								<a
+									className="external_link"
+									href="https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/"
+								>
+									course
+								</a>
+								. I hope you found it useful.
+							</p>
 						</div>
 					</div>
 				</div>
