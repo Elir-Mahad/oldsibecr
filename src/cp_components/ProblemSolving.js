@@ -1,5 +1,9 @@
 import React from "react";
-
+import psuedocode from "../assets/psuedocode.png";
+import charcountstep4 from "../assets/charcountstep4.png";
+import alphanumeric from "../assets/alphanumeric.png";
+import charcountstep5 from "../assets/charcountstep5.png";
+//
 function ProblemSolving() {
 	return (
 		<section className="blogs">
@@ -42,9 +46,7 @@ function ProblemSolving() {
 								the general process for solving problem. Enjoy.
 							</p>
 
-							<p className="focus">
-								Follow these steps to solve coding problems
-							</p>
+							<p>Follow these steps to solve coding problems</p>
 
 							<ol>
 								<li>Understand the problem</li>
@@ -236,7 +238,7 @@ function ProblemSolving() {
 
 							<h2 className="focus">Step 3: Break it down</h2>
 
-							<p>Explicitly write out the steps you need to take</p>
+							<p>Explicitly write out the steps you need to take.</p>
 
 							<p>
 								This forces you to think abut the code you'll write before you
@@ -277,7 +279,11 @@ function ProblemSolving() {
 								for this problem.
 							</p>
 
-							{/* <img src="./assets/psuedocode.png" atl="" /> */}
+							<img
+								//
+								src={psuedocode}
+								alt=""
+							/>
 
 							<h2 className="focus">Step 4: Simplify and solve</h2>
 
@@ -295,7 +301,11 @@ function ProblemSolving() {
 								pseudo code:
 							</p>
 
-							{/* <img src="./assets/charcountstep4.png" alt="" /> */}
+							<img
+								//
+								src={charcountstep4}
+								alt=""
+							/>
 
 							<h2 className="focus">Step 5: Look back and refactor</h2>
 
@@ -383,7 +393,11 @@ function ProblemSolving() {
 								character is alphanumeric.
 							</p>
 
-							{/* <img src="./assets/alphanumeric.png" alt="" /> */}
+							<img
+								//
+								src={alphanumeric}
+								alt=""
+							/>
 
 							<p>
 								The below function 'charCount' counts all the characters in the
@@ -391,7 +405,11 @@ function ProblemSolving() {
 								sure that non-alphanumeric characters get removed.
 							</p>
 
-							{/* <img src="./assets/charcountstep5.png" alt="" /> */}
+							<img
+								//
+								src={charcountstep5}
+								alt=""
+							/>
 						</div>
 					</div>
 				</div>

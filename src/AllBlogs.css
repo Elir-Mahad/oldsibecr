@@ -48,7 +48,6 @@
 .blog {
 	margin: 3rem;
 	padding-bottom: 1.5rem;
-	border-bottom: 1px solid black;
 }
 
 .titletaganimation {
@@ -86,21 +85,24 @@
 	padding-top: 1.5rem;
 }
 
+.blogbody img,
 .blog h2,
 .blog h3,
 .blog p,
 .blog li {
 	line-height: 2;
+	margin-bottom: 1rem;
+	text-align: justify;
 }
 
 .blog h2 {
-	font-size: 1.6rem;
-	font-weight: 500;
+	font-size: 1.5rem;
+	/* font-weight: 500; */
 }
 
 .blog h3 {
-	font-size: 1.6rem;
-	font-weight: 500;
+	font-size: 1.5rem;
+	/* font-weight: 500; */
 }
 
 .blog p {
@@ -124,13 +126,9 @@
 	list-style: circle;
 }
 
+.blogbody ol li,
 .blogbody ul li {
-	margin-bottom: 2rem;
 	word-break: break-word;
-}
-
-.blogbody ol li {
-	margin-bottom: 2rem;
 }
 
 .blogbody .code {
