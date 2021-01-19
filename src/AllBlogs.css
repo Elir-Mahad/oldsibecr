@@ -113,6 +113,10 @@
 	font-size: 1.2rem;
 }
 
+.blogbody img {
+	width: 100%;
+}
+
 .blogbody .focus {
 	color: darkred;
 }

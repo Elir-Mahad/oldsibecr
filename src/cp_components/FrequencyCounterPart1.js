@@ -1,4 +1,8 @@
 import React from "react";
+//
+import frequencycounteroutput from "../assets/frequencycounteroutput.png";
+import nestedloop from "../assets/nestedloop.png";
+import frequencypattern from "../assets/frequencypattern.png";
 
 function FrequencyCounterPart1() {
 	return (
@@ -46,7 +50,11 @@ function FrequencyCounterPart1() {
 
 							<p>The output of the function should look like this:</p>
 
-							{/* <img src="./assets/frequencycounteroutput.png" alt="" /> */}
+							<img
+								//
+								src={frequencycounteroutput}
+								alt=""
+							/>
 
 							<p>Here is an explanation clarifying the above outputs:</p>
 							<ul>
@@ -90,7 +98,11 @@ function FrequencyCounterPart1() {
 
 							<p>Below is an example of a nested loop solution.</p>
 
-							{/* <img src="./assets/nestedloop.png" alt="" /> */}
+							<img
+								//
+								src={nestedloop}
+								alt=""
+							/>
 
 							<p>
 								This is the bad approach because its a nested loop, which means
@@ -181,7 +193,11 @@ function FrequencyCounterPart1() {
 								carry out 1,000,000 operations before it finishes.
 							</p>
 
-							{/* <img src="./assets/frequencypattern.png" alt="" /> */}
+							<img
+								//
+								src={frequencypattern}
+								alt=""
+							/>
 
 							<p>
 								With this refactored function, the time complexity is 3n and we
