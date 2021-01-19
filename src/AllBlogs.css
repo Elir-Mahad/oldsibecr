@@ -113,6 +113,17 @@
 	font-size: 1.2rem;
 }
 
+.external_link {
+	/* this is for any hyperlinks */
+	text-decoration: none;
+	color: blue;
+}
+
+.highlighted {
+	/* this is for any sentence that i want to highlight */
+	color: darkgreen;
+}
+
 .blogbody img {
 	width: 100%;
 }

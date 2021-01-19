@@ -1,4 +1,8 @@
 import React from "react";
+//
+import mp_output from "../assets/mp_output.png";
+import mp_firstsolution from "../assets/mp_firstsolution.png";
+import mp_secondsolution from "../assets/mp_secondsolution.png";
 
 function MultiplePointersPart1() {
 	return (
@@ -133,8 +137,11 @@ function MultiplePointersPart1() {
 
 							<p>The output of the function should look like this:</p>
 
-							{/* img of output */}
-							{/* <img src="./assets/mp_output.png" alt="" /> */}
+							<img
+								//
+								src={mp_output}
+								alt=""
+							/>
 
 							<p>
 								For this problem, we will scan the array from the corners, and
@@ -233,8 +240,11 @@ function MultiplePointersPart1() {
 
 							<p>Below is an example of a nested loop solution.</p>
 
-							{/* img of first solution */}
-							{/* <img src="./assets/mp_firstsolution.png" alt="" /> */}
+							<img
+								//
+								src={mp_firstsolution}
+								alt=""
+							/>
 
 							<p>
 								This solution uses the number that's furthest on the left as the
@@ -308,7 +318,11 @@ function MultiplePointersPart1() {
 
 							<p>Here is the refactored solution that's not nested</p>
 
-							{/* <img src="./assets/mp_secondsolution.png" alt="" /> */}
+							<img
+								//
+								src={mp_secondsolution}
+								alt=""
+							/>
 						</div>
 					</div>
 				</div>
