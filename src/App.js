@@ -13,6 +13,11 @@ import DeployReactSiteGit from "./dev_components/DeployReactSiteGit";
 import MarginBlog from "./dev_components/MarginBlog";
 import DoubleClassing from "./dev_components/DoubleClassing";
 //
+import ProblemSolving from "./cp_components/ProblemSolving";
+import FrequencyCounterPart1 from "./cp_components/FrequencyCounterPart1";
+import FrequencyCounterPart2 from "./cp_components/FrequencyCounterPart2";
+import MultiplePointersPart1 from "./cp_components/MultiplePointersPart1";
+//
 function App() {
 	return (
 		<div className="App">
@@ -38,7 +43,25 @@ function App() {
 
 					{/* New Layer above */}
 
-					{/*  */}
+					{/* below paths for the cp summaries */}
+					<Route path="/problemsolving">
+						<FirstBox />
+						<ProblemSolving />
+					</Route>
+					<Route path="/frequencycounter1">
+						<FirstBox />
+						<FrequencyCounterPart1 />
+					</Route>
+					<Route path="/frequencycounter2">
+						<FirstBox />
+						<FrequencyCounterPart2 />
+					</Route>
+					<Route path="/multiplepointers1">
+						<FirstBox />
+						<MultiplePointersPart1 />
+					</Route>
+
+					{/* below paths for dev summaries  */}
 					<Route path="/essaysummaries">
 						{/* this is the essay index page, contains the header and essay blogs */}
 						<FirstBox />

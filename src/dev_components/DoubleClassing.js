@@ -3,18 +3,18 @@ import "../AllBlogs.css";
 
 function DoubleClassing() {
 	return (
-		<section class="blogs">
-			<div class="wrapper">
+		<section className="blogs">
+			<div className="wrapper">
 				<div className="blog">
 					<div className="titletaganimation">
 						<h1 className="title">Double classing elements</h1>
 						<div className="taganimation">
 							<h4 className="hashtag">#html #css</h4>
-							<div class="boite">
-								<div class="cercle3"></div>
-								<div class="cercle3"></div>
-								<div class="cercle3"></div>
-								<div class="cercle3"></div>
+							<div className="boite">
+								<div className="cercle3"></div>
+								<div className="cercle3"></div>
+								<div className="cercle3"></div>
+								<div className="cercle3"></div>
 							</div>
 						</div>
 					</div>
