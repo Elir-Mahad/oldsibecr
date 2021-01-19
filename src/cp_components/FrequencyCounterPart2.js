@@ -1,4 +1,8 @@
 import React from "react";
+//
+import anagramoutput from "../assets/anagramoutput.png";
+import anagramsolution1 from "../assets/anagramsolution1.png";
+import anagramsolution2 from "../assets/anagramsolution2.png";
 
 function FrequencyCounterPart2() {
 	return (
@@ -46,7 +50,11 @@ function FrequencyCounterPart2() {
 
 							<p>The output of the function should look like this:</p>
 
-							{/* <img src="./assets/anagramoutput.png" alt="" /> */}
+							<img
+								//
+								src={anagramoutput}
+								alt=""
+							/>
 
 							<p>Here is an explanation clarifying the above output:</p>
 							<ul>
@@ -99,7 +107,11 @@ function FrequencyCounterPart2() {
 
 							<p>Below is the solution using the frequency counter pattern.</p>
 
-							{/* <img src="./assets//anagramsolution1.png" alt="" /> */}
+							<img
+								//
+								src={anagramsolution1}
+								alt=""
+							/>
 
 							<p>
 								This solution works and it has O(n) time complexity, but its a
@@ -115,7 +127,11 @@ function FrequencyCounterPart2() {
 								it is shorter and a bit more elegant.
 							</p>
 
-							{/* <img src="./assets/anagramsolution2.png" alt="" /> */}
+							<img
+								//
+								src={anagramsolution2}
+								alt=""
+							/>
 						</div>
 					</div>
 				</div>
