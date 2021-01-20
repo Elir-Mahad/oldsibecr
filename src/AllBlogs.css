@@ -14,32 +14,52 @@
 	width: calc((100% / 4) - 3%);
 	margin: 1%;
 	padding: 1.5rem;
-	cursor: pointer;
 	border-radius: 5px;
-}
-
-.synopsisbox:hover {
 	background-color: white;
 }
+/* 
+.synopsisbox:hover {
+	box-shadow: none;
+} */
 
 .synopsisbox h2 {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	color: black;
+	height: 100%;
+	/* background-color: green; */
 }
 
-.blogimage {
+.synopsisbox .blogimage {
 	height: 240px;
-	max-width: 100%;
+	/* max-width: 100%; */
 	min-width: 100%;
 	object-fit: cover;
-	/* filter: hue-rotate(100deg); */
 }
 
 .synopsisbox p {
 	color: black;
+	height: 100%;
+	/* background-color: red; */
 }
 
+.synopsisbox button {
+	cursor: pointer;
+	margin-top: 1rem;
+	padding: 0.5rem;
+	background-color: #040d21;
+	color: white;
+	border: transparent;
+	border-radius: 5px;
+	font-size: 0.8rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.synopsisbox button:hover {
+	background-color: lightgrey;
+	color: black;
+}
 /* blog general styles */
 
 .blogs {

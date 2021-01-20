@@ -27,7 +27,7 @@ function BlogTopics() {
 								Algo world <span className="postnumbers"> 1 post </span>
 							</h2>
 
-							<p>Reflections and tutorials about competitive programming.</p>
+							<p>Reflections on competitive programming.</p>
 						</div>
 					</Link>
 				</div>
@@ -35,7 +35,7 @@ function BlogTopics() {
 					<Link
 						style={{ textDecoration: "none" }}
 						//
-						// to="/devsummaries"
+						to="/devsummaries"
 					>
 						<img
 							className="image"
@@ -48,14 +48,16 @@ function BlogTopics() {
 								Coding tips <span className="postnumbers"> 0 </span>
 							</h2>
 
-							<p>
-								Tips, tutorials, and reflections on front end web development.
-							</p>
+							<p>Tutorials, and reflections on front end web development.</p>
 						</div>
 					</Link>
 				</div>
 				<div className="container essay">
-					<Link style={{ textDecoration: "none" }} to="/essaysummaries">
+					<Link
+						//
+						style={{ textDecoration: "none" }}
+						to="/essaysummaries"
+					>
 						<img
 							className="image"
 							src={codingtheory}
@@ -67,10 +69,7 @@ function BlogTopics() {
 								Essays <span className="postnumbers"> 0 </span>
 							</h2>
 
-							<p>
-								Analysis on books that focus on a variety of tech topics (both
-								technical and non-technical).
-							</p>
+							<p>Analysis on books that focus on a variety of tech topics.</p>
 						</div>
 					</Link>
 				</div>
