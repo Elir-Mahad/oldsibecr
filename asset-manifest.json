@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/scribe/static/css/main.da6b2803.chunk.css",
-    "main.js": "/scribe/static/js/main.8e413899.chunk.js",
-    "main.js.map": "/scribe/static/js/main.8e413899.chunk.js.map",
-    "runtime-main.js": "/scribe/static/js/runtime-main.82ec9620.js",
-    "runtime-main.js.map": "/scribe/static/js/runtime-main.82ec9620.js.map",
+    "main.css": "/scribe/static/css/main.29aa2a72.chunk.css",
+    "main.js": "/scribe/static/js/main.92f5309b.chunk.js",
+    "main.js.map": "/scribe/static/js/main.92f5309b.chunk.js.map",
+    "runtime-main.js": "/scribe/static/js/runtime-main.c0fc2c21.js",
+    "runtime-main.js.map": "/scribe/static/js/runtime-main.c0fc2c21.js.map",
     "static/js/2.5ea1e48a.chunk.js": "/scribe/static/js/2.5ea1e48a.chunk.js",
     "static/js/2.5ea1e48a.chunk.js.map": "/scribe/static/js/2.5ea1e48a.chunk.js.map",
-    "static/js/3.2b5ca014.chunk.js": "/scribe/static/js/3.2b5ca014.chunk.js",
-    "static/js/3.2b5ca014.chunk.js.map": "/scribe/static/js/3.2b5ca014.chunk.js.map",
+    "static/js/3.11a89969.chunk.js": "/scribe/static/js/3.11a89969.chunk.js",
+    "static/js/3.11a89969.chunk.js.map": "/scribe/static/js/3.11a89969.chunk.js.map",
     "index.html": "/scribe/index.html",
-    "static/css/main.da6b2803.chunk.css.map": "/scribe/static/css/main.da6b2803.chunk.css.map",
+    "static/css/main.29aa2a72.chunk.css.map": "/scribe/static/css/main.29aa2a72.chunk.css.map",
     "static/js/2.5ea1e48a.chunk.js.LICENSE.txt": "/scribe/static/js/2.5ea1e48a.chunk.js.LICENSE.txt",
     "static/media/alphanumeric.ef19e397.png": "/scribe/static/media/alphanumeric.ef19e397.png",
     "static/media/anagramoutput.a151b354.png": "/scribe/static/media/anagramoutput.a151b354.png",
@@ -28,21 +28,19 @@
     "static/media/doubleclasses.53da573f.jpg": "/scribe/static/media/doubleclasses.53da573f.jpg",
     "static/media/frequencycounteroutput.189f24a5.png": "/scribe/static/media/frequencycounteroutput.189f24a5.png",
     "static/media/frequencypattern.0f67c164.png": "/scribe/static/media/frequencypattern.0f67c164.png",
-    "static/media/frequencypatternimage.dcbc1533.png": "/scribe/static/media/frequencypatternimage.dcbc1533.png",
     "static/media/githtml.bf71e4db.png": "/scribe/static/media/githtml.bf71e4db.png",
     "static/media/mp_firstsolution.8571154a.png": "/scribe/static/media/mp_firstsolution.8571154a.png",
     "static/media/mp_output.6f327434.png": "/scribe/static/media/mp_output.6f327434.png",
     "static/media/mp_secondsolution.ffade248.png": "/scribe/static/media/mp_secondsolution.ffade248.png",
-    "static/media/multiplepointersimage.232db507.png": "/scribe/static/media/multiplepointersimage.232db507.png",
     "static/media/nestedloop.bcc308d8.png": "/scribe/static/media/nestedloop.bcc308d8.png",
-    "static/media/problemsolvingimage.c14c0aa0.png": "/scribe/static/media/problemsolvingimage.c14c0aa0.png",
+    "static/media/problemsolvingimage.1aed80f5.png": "/scribe/static/media/problemsolvingimage.1aed80f5.png",
     "static/media/psuedocode.7e24ac56.png": "/scribe/static/media/psuedocode.7e24ac56.png",
     "static/media/reactgit.3921b891.jpeg": "/scribe/static/media/reactgit.3921b891.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.82ec9620.js",
+    "static/js/runtime-main.c0fc2c21.js",
     "static/js/2.5ea1e48a.chunk.js",
-    "static/css/main.da6b2803.chunk.css",
-    "static/js/main.8e413899.chunk.js"
+    "static/css/main.29aa2a72.chunk.css",
+    "static/js/main.92f5309b.chunk.js"
   ]
 }
