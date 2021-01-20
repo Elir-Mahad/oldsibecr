@@ -17,6 +17,7 @@ import ProblemSolving from "./cp_components/ProblemSolving";
 import FrequencyCounterPart1 from "./cp_components/FrequencyCounterPart1";
 import FrequencyCounterPart2 from "./cp_components/FrequencyCounterPart2";
 import MultiplePointersPart1 from "./cp_components/MultiplePointersPart1";
+import Footer from "./index_components/Footer";
 //
 function App() {
 	return (
@@ -27,18 +28,22 @@ function App() {
 					<Route path="/htmlgit">
 						<FirstBox />
 						<DeployHtmlSiteGit />
+						<Footer />
 					</Route>
 					<Route path="/reactgit">
 						<FirstBox />
 						<DeployReactSiteGit />
+						<Footer />
 					</Route>
 					<Route path="/margin">
 						<FirstBox />
 						<MarginBlog />
+						<Footer />
 					</Route>
 					<Route path="/doubleclass">
 						<FirstBox />
 						<DoubleClassing />
+						<Footer />
 					</Route>
 
 					{/* New Layer above */}
@@ -47,18 +52,22 @@ function App() {
 					<Route path="/problemsolving">
 						<FirstBox />
 						<ProblemSolving />
+						<Footer />
 					</Route>
 					<Route path="/frequencycounter1">
 						<FirstBox />
 						<FrequencyCounterPart1 />
+						<Footer />
 					</Route>
 					<Route path="/frequencycounter2">
 						<FirstBox />
 						<FrequencyCounterPart2 />
+						<Footer />
 					</Route>
 					<Route path="/multiplepointers1">
 						<FirstBox />
 						<MultiplePointersPart1 />
+						<Footer />
 					</Route>
 
 					{/* below paths for dev summaries  */}
@@ -66,21 +75,25 @@ function App() {
 						{/* this is the essay index page, contains the header and essay blogs */}
 						<FirstBox />
 						<EssayBlogsSum />
+						<Footer />
 					</Route>
 					<Route path="/devsummaries">
 						{/* this is the devtips index page, contains the header and dev blogs */}
 						<FirstBox />
 						<DevBlogsSum />
+						<Footer />
 					</Route>
 					<Route path="/cpsummaries">
 						{/* this is the cp index page, contains the header and cp blogs */}
 						<FirstBox />
 						<CpBlogsSum />
+						<Footer />
 					</Route>
 					<Route path="/">
 						{/* this is the home page, contains the header and the blog topics */}
 						<FirstBox />
 						<BlogTopics />
+						<Footer />
 					</Route>
 				</Switch>
 			</Router>

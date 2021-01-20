@@ -26,7 +26,7 @@ function CpBlogsSum() {
 					<button> Read post </button>
 				</Link>
 			</div>
-			<div className="synopsisbox">
+			{/* <div className="synopsisbox">
 				<img
 					//
 					className="blogimage"
@@ -92,7 +92,7 @@ function CpBlogsSum() {
 					{" "}
 					<button> Read post </button>
 				</Link>
-			</div>
+			</div> */}
 		</div>
 	);
 }
