@@ -252,20 +252,22 @@
 /* media */
 
 @media (max-width: 1024px) {
-	.blog .titletag {
-		flex-direction: column;
-		align-items: unset;
-	}
-
-	.hashtag {
-		margin-top: 1rem;
-	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 834px) {
 	.blogs {
 		padding-top: 0rem;
 		margin: 0rem;
+		background-color: green;
+	}
+
+	.titletaganimation {
+		padding-left: 0rem;
+		padding-right: 0rem;
+	}
+	.blogbody {
+		background-color: red;
+		padding: 0rem;
 	}
 }
 

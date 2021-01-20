@@ -23,7 +23,6 @@
 }
 
 .topnav .desk a {
-	border-bottom: 1px solid black;
 	padding: 0.3rem;
 }
 
@@ -52,7 +51,7 @@
 	color: #9ef5d1;
 	letter-spacing: 0.1rem;
 	text-align: center;
-	padding: 7rem;
+	padding: 6rem;
 }
 
 .headertext h1 {
