@@ -13,6 +13,7 @@
 	position: relative;
 	width: calc((100% / 4) - 3%);
 	margin: 1%;
+	margin-bottom: 1rem;
 	padding: 1.5rem;
 	border-radius: 5px;
 	background-color: white;
@@ -252,7 +253,17 @@
 
 /* media */
 
+@media (max-width: 1124px) {
+	.synopsisbox {
+		width: calc((100% / 3) - 3%);
+	}
+}
+
 @media (max-width: 834px) {
+	.synopsisbox {
+		width: calc((100% / 2) - 1%);
+	}
+
 	.blogs {
 		padding-top: 0rem;
 		margin: 0rem;
@@ -302,6 +313,10 @@
 }
 
 @media (max-width: 600px) {
+	.synopsisbox {
+		width: calc((120% / 2) - 1%);
+	}
+
 	.blog {
 		margin: 1.5rem;
 	}
@@ -311,7 +326,17 @@
 	}
 }
 
+@media (max-width: 500px) {
+	.synopsisbox {
+		width: calc((140% / 2) - 1%);
+	}
+}
+
 @media (max-width: 414px) {
+	.synopsisbox {
+		width: calc((160% / 2) - 1%);
+	}
+
 	.blogbody ul {
 		margin-left: 1rem;
 	}
