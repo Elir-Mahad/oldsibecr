@@ -78,13 +78,14 @@
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	border-radius: 5px;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
 	background-color: #040d21;
 }
 
 .title {
 	font-size: 1.7rem;
+	text-align: center;
 	color: white;
 }
 
@@ -102,7 +103,9 @@
 /* actual blog post  */
 
 .blogbody {
-	padding: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
 	padding-top: 1.5rem;
 }
 
@@ -117,12 +120,10 @@
 
 .blog h2 {
 	font-size: 1.5rem;
-	/* font-weight: 500; */
 }
 
 .blog h3 {
 	font-size: 1.5rem;
-	/* font-weight: 500; */
 }
 
 .blog p {
@@ -251,42 +252,69 @@
 
 /* media */
 
-@media (max-width: 1024px) {
-}
-
 @media (max-width: 834px) {
 	.blogs {
 		padding-top: 0rem;
 		margin: 0rem;
-		background-color: green;
+		/* background-color: green; */
 	}
 
 	.titletaganimation {
 		padding-left: 0rem;
 		padding-right: 0rem;
 	}
+	.hashtag {
+		display: none;
+	}
+
 	.blogbody {
-		background-color: red;
-		padding: 0rem;
+		/* background-color: red; */
+		padding-left: 0rem;
+		padding-right: 0rem;
+		padding-bottom: 0rem;
 	}
 }
 
-@media (max-width: 500px) {
-	/* .blog h2 {
-		font-size: 1.9rem;
+@media (max-width: 768px) {
+	.cercle3 {
+		display: none;
+	}
+
+	.title {
+		font-size: 1.35rem;
+	}
+
+	.blog h2 {
+		font-size: 1.3rem;
 	}
 
 	.blog h3 {
-		font-size: 1.8rem;
+		font-size: 1.3rem;
 	}
 
 	.blog p {
-		font-size: 1.7rem;
+		font-size: 1.2rem;
 	}
 
 	.blog li {
-		font-size: 1.6rem;
-	} */
+		font-size: 1.1rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.blog {
+		margin: 1.5rem;
+	}
+
+	.blogbody ul {
+		margin-left: 2rem;
+	}
+}
+
+@media (max-width: 414px) {
+	.blogbody ul {
+		margin-left: 1rem;
+	}
 }
 
 /* animation for end of blog */

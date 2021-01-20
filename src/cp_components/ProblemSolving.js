@@ -15,7 +15,7 @@ function ProblemSolving() {
 							The process for solving algorithm problems
 						</h1>
 						<div className="taganimation">
-							<h4 className="hashtag">#algorithms</h4>
+							{/* <h4 className="hashtag">#algorithms</h4> */}
 							<div className="boite">
 								<div className="cercle3"></div>
 								<div className="cercle3"></div>

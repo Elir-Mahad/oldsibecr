@@ -1,8 +1,8 @@
 import React from "react";
 //
 import problemsolvingimage from "../assets/problemsolvingimage.png";
-import frequencycounterimage from "../assets/frequencypatternimage.png";
-import multiplepointersimage from "../assets/multiplepointersimage.png";
+// import frequencycounterimage from "../assets/frequencypatternimage.png";
+// import multiplepointersimage from "../assets/multiplepointersimage.png";
 //
 import { Link } from "react-router-dom";
 //
