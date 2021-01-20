@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/scribe/static/css/main.29aa2a72.chunk.css",
+    "main.css": "/scribe/static/css/main.cee78f6c.chunk.css",
     "main.js": "/scribe/static/js/main.92f5309b.chunk.js",
     "main.js.map": "/scribe/static/js/main.92f5309b.chunk.js.map",
     "runtime-main.js": "/scribe/static/js/runtime-main.c0fc2c21.js",
@@ -10,7 +10,7 @@
     "static/js/3.11a89969.chunk.js": "/scribe/static/js/3.11a89969.chunk.js",
     "static/js/3.11a89969.chunk.js.map": "/scribe/static/js/3.11a89969.chunk.js.map",
     "index.html": "/scribe/index.html",
-    "static/css/main.29aa2a72.chunk.css.map": "/scribe/static/css/main.29aa2a72.chunk.css.map",
+    "static/css/main.cee78f6c.chunk.css.map": "/scribe/static/css/main.cee78f6c.chunk.css.map",
     "static/js/2.5ea1e48a.chunk.js.LICENSE.txt": "/scribe/static/js/2.5ea1e48a.chunk.js.LICENSE.txt",
     "static/media/alphanumeric.ef19e397.png": "/scribe/static/media/alphanumeric.ef19e397.png",
     "static/media/anagramoutput.a151b354.png": "/scribe/static/media/anagramoutput.a151b354.png",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.c0fc2c21.js",
     "static/js/2.5ea1e48a.chunk.js",
-    "static/css/main.29aa2a72.chunk.css",
+    "static/css/main.cee78f6c.chunk.css",
     "static/js/main.92f5309b.chunk.js"
   ]
 }
